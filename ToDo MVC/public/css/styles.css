@@ -1,0 +1,135 @@
+* {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  border-bottom: 1px solid #ccc;
+  padding: 1em 2em;
+  margin-bottom: 1em;
+  background-color: #4169e1;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+#navbar ul li {
+  margin-left: 1em;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  max-width: 450px;
+  margin: 2em auto;
+}
+
+.container form {
+  margin-top: 1.5em;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+
+.form-control input,
+.form-control textarea {
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form input[type='submit'] {
+  background-color: #4169e1;
+  color: #fff;
+  padding: 0.7em 1.5em;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+form input[type='submit']:hover {
+  background-color: #4169e1;
+}
+
+.task-list {
+  list-style: none;
+  margin-top: 1em;
+}
+
+.task-list li {
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #efefef;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-list .title {
+  font-weight: bold;
+  color: #4169e1;
+  transition: 0.5s;
+  font-size: 1.3em;
+}
+
+.task-list .title:hover {
+  color: rgb(0, 0, 121);
+}
+
+.actions {
+  display: flex;
+}
+
+.actions i {
+  font-size: 1.5em;
+  margin-right: 0.6em;
+  color: rgb(0, 0, 121);
+}
+
+.actions i:hover {
+  color: #4169e1;
+}
+
+.actions form {
+  margin: 0;
+}
+
+.actions button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.title.done {
+  text-decoration: line-through;
+  color: #ccc;
+}
+.details {
+  color: rgb(5, 6, 97);
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-top: 250px;
+  background-image: url('https://i.pinimg.com/564x/45/97/d4/4597d4a2bae83a51232b2329247e59dd.jpg');
+}
+.details ul {
+  list-style: none;
+  padding: 20px;
+  font-weight: bold;
+}
